@@ -1,0 +1,13 @@
+{
+    "name": "demo",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "watch": "npx tailwindcss -i ./css/app.css -o ./style.css --watch",
+        "build": "npx tailwindcss -i ./css/app.css -o ./style.css"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.2.1"
+    }
+}
